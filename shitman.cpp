@@ -9,7 +9,7 @@ struct Deck {
     
     Deck() {
         for(int i = 0; i < 52; i++) {
-            deck[i] = i;
+            deck[i] = i % 13;
         }
     }
     
